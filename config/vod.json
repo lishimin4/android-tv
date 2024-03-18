@@ -22,21 +22,24 @@
   ],
   "lives": [
     {
-      "group": "11",
+      "group": "央视高清",
       "channels": [
         {
-          "name": "直播源",
+          "name": "CCTV1",
           "urls": [
-            "about:blank"
+            "https://live-dtocnc-cdn.ysp.cctv.cn/21402C6C9D6E368EB73CCB7DEE3DDFA961A0345DEC468EF2463283BEC5A0B8E3AD9BAB5984FA12283A8B6807D74BCEFE39C7FDAA52A7F00D6ECDDFD16941FDEBF6FF08AEF1911A8A94838A3C44FD9858F219C9C281FCA85AAC3DFB0A6B06EE3CFCC4FB7060357816206771C10A6351AD/2022576803.m3u8"
           ]
         }
       ]
     },
     {
-      "group": "22",
+      "group": "卫视高清",
       "channels": [
         {
-          "name": "22"
+          "name": "北京卫视",
+          "urls": [
+            "https://live-dtocnc-cdn.ysp.cctv.cn/286DEA7ACDD1B259D6D05F5D024F2E5D43AD990BFB107F636B47AE200640B372981CFF0219C9C939FA7817F6682B2B2174238363ABD8C9D6F2CAC0DC9EAD3134F8A1EB3872C6D646CC342A0BE2A0504C15968B18DDFC552A376B2B6BBE21244296BFBFCFA59C4E79B9B171D956252C99/2000272102.m3u8"
+          ]
         }
       ]
     }
@@ -286,6 +289,6 @@
     "cdnjs.hnfenxun.com",
     "cms.qdwght.com"
   ],
-  "wallpaper": "https://cdn.jsdelivr.net/gh/lishimin4/android-tv@v1.0/config/background-image.jpg",
-  "spider": "https://cdn.jsdelivr.net/gh/lishimin4/android-tv@v1.0/config/custom_spider.jar?raw=true;md5;e43a84197bf0dcac50990fbc7f2ca470"
+  "wallpaper": "https://cdn.jsdelivr.net/gh/lishimin4/android-tv/config/background-image.jpg",
+  "spider": "https://cdn.jsdelivr.net/gh/lishimin4/android-tv/config/custom_spider.jar?raw=true;md5;e43a84197bf0dcac50990fbc7f2ca470"
 }
