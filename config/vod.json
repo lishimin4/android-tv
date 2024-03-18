@@ -290,5 +290,5 @@
     "cms.qdwght.com"
   ],
   "wallpaper": "https://cdn.jsdelivr.net/gh/lishimin4/android-tv/config/background-image.jpg",
-  "spider": "https://cdn.jsdelivr.net/gh/lishimin4/android-tv/config/custom_spider.jar?raw=true;md5;e43a84197bf0dcac50990fbc7f2ca470"
+  "spider": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/lishimin4/android-tv/main/config/custom_spider.jar;md5;e43a84197bf0dcac50990fbc7f2ca470"
 }
