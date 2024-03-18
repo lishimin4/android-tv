@@ -1,48 +1,248 @@
 {
   "sites": [
     {
-      "key": "adys",
-      "name": "爱迪影视",
-      "type": 3,
-      "api": "csp_Aidi",
-      "playUrl": "88",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://aidi.tv",
-      "categories": [
-        "国产剧",
-        "港台剧",
-        "日韩剧",
-        "欧美剧",
-        "泰剧",
-        "综艺"
-      ]
-    }
+	"key": "adys",
+	"name": "爱迪影视",
+	"type": 3,
+	"api": "csp_Aidi",
+	"playUrl": "88",
+	"searchable": 1,
+	"quickSearch": 1,
+	"filterable": 1,
+	"ext": "https://aidi.tv",
+	"categories": ["国产剧", "港台剧", "日韩剧", "欧美剧", "泰剧", "综艺"]
+},
+{
+	"key": "push_agent",
+	"name": "推送",
+	"type": 3,
+	"api": "csp_PushAgent",
+	"searchable": 0,
+	"quickSearch": 0,
+	"filterable": 0
+},
+{
+	"key": "csp_xpath_94sm",
+	"name": "94神马(XPath)",
+	"type": 3,
+	"api": "csp_XPath",
+	"searchable": 1,
+	"quickSearch": 1,
+	"filterable": 0,
+	"ext": "https://cdn.jsdelivr.net/gh/lishimin4/android-tv@master/spider/xpath/94sm.json"
+},
+{
+	"key": "csp_xpath_jpys",
+	"name": "极品影视(XPath)",
+	"type": 3,
+	"api": "csp_XPath",
+	"searchable": 1,
+	"quickSearch": 1,
+	"filterable": 0,
+	"ext": "https://cdn.jsdelivr.net/gh/lishimin4/android-tv@master/spider/xpath/jpys.json"
+},
+{
+	"key": "csp_xpath_age",
+	"name": "AGE动漫(XPath)",
+	"type": 3,
+	"api": "csp_XPath",
+	"searchable": 1,
+	"quickSearch": 1,
+	"filterable": 0,
+	"ext": "https://cdn.jsdelivr.net/gh/lishimin4/android-tv@master/spider/xpath/agefans.json"
+},
+{
+	"key": "csp_xpath_jpyszl",
+	"name": "极品直链(XPath)",
+	"type": 3,
+	"api": "csp_XPathMac",
+	"searchable": 1,
+	"quickSearch": 1,
+	"filterable": 0,
+	"ext": "https://cdn.jsdelivr.net/gh/lishimin4/android-tv@master/spider/xpath/jpys.json"
+},
+{
+	"key": "csp_xpath_cjt",
+	"name": "CJT影视(XPath)",
+	"type": 3,
+	"api": "csp_XPathMac",
+	"searchable": 1,
+	"quickSearch": 1,
+	"filterable": 0,
+	"ext": "https://cdn.jsdelivr.net/gh/lishimin4/android-tv@master/spider/xpath/cjtys.json"
+},
+{
+	"key": "csp_xpath_tvci",
+	"name": "大师兄(XPath)",
+	"type": 3,
+	"api": "csp_XPathFilter",
+	"searchable": 1,
+	"quickSearch": 1,
+	"filterable": 1,
+	"ext": "https://cdn.jsdelivr.net/gh/lishimin4/android-tv@master/spider/xpath/tvci.json"
+},
+{
+	"key": "csp_xpath_saohuotv",
+	"name": "骚火电影(XPath)",
+	"type": 3,
+	"api": "csp_XPath",
+	"searchable": 1,
+	"quickSearch": 1,
+	"filterable": 0,
+	"ext": "https://cdn.jsdelivr.net/gh/lishimin4/android-tv@master/spider/xpath/saohuotv2.json"
+},
+{
+	"key": "csp_xpath_dm84",
+	"name": "动漫巴士(XPath)",
+	"type": 3,
+	"api": "csp_XPath",
+	"searchable": 1,
+	"quickSearch": 1,
+	"filterable": 0,
+	"ext": "https://cdn.jsdelivr.net/gh/lishimin4/android-tv@master/spider/xpath/dm84.json"
+},
+{
+	"key": "csp_xpath_egg",
+	"name": "蛋蛋影院(XPath)",
+	"type": 3,
+	"api": "csp_XPathEgg",
+	"searchable": 1,
+	"quickSearch": 1,
+	"filterable": 0,
+	"ext": "https://cdn.jsdelivr.net/gh/lishimin4/android-tv@master/spider/xpath/egg.json"
+},
+{
+	"key": "csp_xpath_555",
+	"name": "555电影(XPath)",
+	"type": 3,
+	"api": "csp_XPath",
+	"searchable": 1,
+	"quickSearch": 1,
+	"filterable": 0,
+	"ext": "https://cdn.jsdelivr.net/gh/lishimin4/android-tv@master/spider/xpath/555.json"
+},
+{
+	"key": "csp_xpath_4kyu",
+	"name": "一只鱼4K(XPath)",
+	"type": 3,
+	"api": "csp_XPath",
+	"searchable": 1,
+	"quickSearch": 1,
+	"filterable": 0,
+	"ext": "https://cdn.jsdelivr.net/gh/lishimin4/android-tv@master/spider/xpath/4kyu.json"
+},
+{
+	"key": "csp_xpath_miniku",
+	"name": "Miniku(XPath)",
+	"type": 3,
+	"api": "csp_XPath",
+	"searchable": 1,
+	"quickSearch": 1,
+	"filterable": 0,
+	"ext": "https://cdn.jsdelivr.net/gh/lishimin4/android-tv@master/spider/xpath/miniku.json"
+},
+{
+	"key": "csp_xpath_pianba",
+	"name": "Pianba(XPath)",
+	"type": 3,
+	"api": "csp_XPath",
+	"searchable": 1,
+	"quickSearch": 1,
+	"filterable": 0,
+	"ext": "https://cdn.jsdelivr.net/gh/lishimin4/android-tv@master/spider/xpath/pianba.json"
+},
+{
+	"key": "csp_xpath_Ole",
+	"name": "Ole(EXO)",
+	"type": 3,
+	"api": "csp_XPath",
+	"searchable": 1,
+	"quickSearch": 1,
+	"filterable": 0,
+	"ext": "https://cdn.jsdelivr.net/gh/lishimin4/android-tv@master/spider/xpath/olevod.json"
+},
+{
+	"key": "唐人街",
+	"name": "唐人街(P)",
+	"type": 3,
+	"api": "csp_XPathMacFilter",
+	"searchable": 1,
+	"quickSearch": 1,
+	"filterable": 1,
+	"ext": "https://cdn.jsdelivr.net/gh/lishimin4/android-tv@master/spider/xpath/Renjie.json"
+},
+{
+	"key": "Gimy",
+	"name": "Gimy(P)",
+	"type": 3,
+	"api": "csp_XPathMacFilter",
+	"searchable": 1,
+	"quickSearch": 1,
+	"filterable": 1,
+	"ext": "https://cdn.jsdelivr.net/gh/lishimin4/android-tv@master/spider/xpath/Gimy.json"
+},
+{
+	"key": "Jumi",
+	"name": "Jumi(P)",
+	"type": 3,
+	"api": "csp_XPathMacFilter",
+	"searchable": 1,
+	"quickSearch": 1,
+	"filterable": 1,
+	"ext": "https://cdn.jsdelivr.net/gh/lishimin4/android-tv@master/spider/xpath/Jumi.json"
+},
+{
+	"key": "Djx",
+	"name": "瓜皮TV(P)",
+	"type": 3,
+	"api": "csp_XPathFilter",
+	"searchable": 1,
+	"quickSearch": 1,
+	"filterable": 1,
+	"ext": "https://cdn.jsdelivr.net/gh/lishimin4/android-tv@master/spider/xpath/Djx.json"
+},
+{
+	"key": "独播库",
+	"name": "独播库(P)",
+	"type": 3,
+	"api": "csp_XPathMacFilter",
+	"searchable": 1,
+	"quickSearch": 1,
+	"filterable": 1,
+	"ext": "https://cdn.jsdelivr.net/gh/lishimin4/android-tv@master/spider/xpath/Duboku.json"
+},
+{
+	"key": "Sky4k",
+	"name": "Sky4k(P)[en]",
+	"type": 3,
+	"api": "csp_XPathMacFilter",
+	"searchable": 1,
+	"quickSearch": 1,
+	"filterable": 1,
+	"ext": "https://cdn.jsdelivr.net/gh/lishimin4/android-tv@master/spider/xpath/Sky4k.json"
+},
+{
+	"key": "Nfuxs",
+	"name": "南府(P)",
+	"type": 3,
+	"api": "csp_XPathFilter",
+	"searchable": 1,
+	"quickSearch": 1,
+	"filterable": 1,
+	"ext": "https://cdn.jsdelivr.net/gh/lishimin4/android-tv@master/spider/xpath/Nfuxs.json"
+},
+{
+	"key": "Aixixi",
+	"name": "爱西西(P)",
+	"type": 3,
+	"api": "csp_XPathFilter",
+	"searchable": 1,
+	"quickSearch": 1,
+	"filterable": 1,
+	"ext": "https://cdn.jsdelivr.net/gh/lishimin4/android-tv@master/spider/xpath/Aixixi.json"
+}
   ],
   "lives": [
-    {
-      "group": "央视高清",
-      "channels": [
-        {
-          "name": "CCTV1",
-          "urls": [
-            "https://live-dtocnc-cdn.ysp.cctv.cn/21402C6C9D6E368EB73CCB7DEE3DDFA961A0345DEC468EF2463283BEC5A0B8E3AD9BAB5984FA12283A8B6807D74BCEFE39C7FDAA52A7F00D6ECDDFD16941FDEBF6FF08AEF1911A8A94838A3C44FD9858F219C9C281FCA85AAC3DFB0A6B06EE3CFCC4FB7060357816206771C10A6351AD/2022576803.m3u8"
-          ]
-        }
-      ]
-    },
-    {
-      "group": "卫视高清",
-      "channels": [
-        {
-          "name": "北京卫视",
-          "urls": [
-            "https://live-dtocnc-cdn.ysp.cctv.cn/286DEA7ACDD1B259D6D05F5D024F2E5D43AD990BFB107F636B47AE200640B372981CFF0219C9C939FA7817F6682B2B2174238363ABD8C9D6F2CAC0DC9EAD3134F8A1EB3872C6D646CC342A0BE2A0504C15968B18DDFC552A376B2B6BBE21244296BFBFCFA59C4E79B9B171D956252C99/2000272102.m3u8"
-          ]
-        }
-      ]
-    }
   ],
   "parses": [
     {
@@ -231,63 +431,8 @@
     }
   ],
   "ads": [
-    "mimg.0c1q0l.cn",
-    "www.googletagmanager.com",
-    "www.google-analytics.com",
-    "mc.usihnbcq.cn",
-    "mg.g1mm3d.cn",
-    "mscs.svaeuzh.cn",
-    "cnzz.hhttm.top",
-    "tp.vinuxhome.com",
-    "cnzz.mmstat.com",
-    "www.baihuillq.com",
-    "s23.cnzz.com",
-    "z3.cnzz.com",
-    "c.cnzz.com",
-    "stj.v1vo.top",
-    "z12.cnzz.com",
-    "img.mosflower.cn",
-    "tips.gamevvip.com",
-    "ehwe.yhdtns.com",
-    "xdn.cqqc3.com",
-    "www.jixunkyy.cn",
-    "sp.chemacid.cn",
-    "hm.baidu.com",
-    "s9.cnzz.com",
-    "z6.cnzz.com",
-    "um.cavuc.com",
-    "mav.mavuz.com",
-    "wofwk.aoidf3.com",
-    "z5.cnzz.com",
-    "xc.hubeijieshikj.cn",
-    "tj.tianwenhu.com",
-    "xg.gars57.cn",
-    "k.jinxiuzhilv.com",
-    "cdn.bootcss.com",
-    "ppl.xunzhuo123.com",
-    "xomk.jiangjunmh.top",
-    "img.xunzhuo123.com",
-    "z1.cnzz.com",
-    "s13.cnzz.com",
-    "xg.huataisangao.cn",
-    "z7.cnzz.com",
-    "xg.huataisangao.cn",
-    "z2.cnzz.com",
-    "s96.cnzz.com",
-    "q11.cnzz.com",
-    "thy.dacedsfa.cn",
-    "xg.whsbpw.cn",
-    "s19.cnzz.com",
-    "z8.cnzz.com",
-    "s4.cnzz.com",
-    "f5w.as12df.top",
-    "ae01.alicdn.com",
-    "www.92424.cn",
-    "k.wudejia.com",
-    "vivovip.mmszxc.top",
-    "qiu.xixiqiu.com",
-    "cdnjs.hnfenxun.com",
-    "cms.qdwght.com"
+    "www.taobao.com",
+    "www.baidu.com"
   ],
   "wallpaper": "https://cdn.jsdelivr.net/gh/lishimin4/android-tv/config/background-image.jpg",
   "spider": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/lishimin4/android-tv/main/config/custom_spider.jar;md5;e43a84197bf0dcac50990fbc7f2ca470"
