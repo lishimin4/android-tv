@@ -10,6 +10,8 @@
 
 ####### 文件浏览代理  https://mirror.ghproxy.com/https://github.com/lishimin4/android-tv/blob/main/config/live.txt
 
+####### github代理  https://ghproxy.net/
+
 
 ####### Spider爬虫XPath规则  https://github.com/CatVodTVOfficial/CatVodTVSpider/blob/master/XPath.md
 
